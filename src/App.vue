@@ -1,20 +1,20 @@
 <template>
   <div id="app">
-    <VueCronometro />
+    <VueChronometer />
   </div>
 </template>
 
 <script>
-import VueCronometro from './components/Cronometro.vue';
+import VueChronometer from "./components/Chronometer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    VueCronometro
-  }
+    VueChronometer,
+  },
 };
 </script>
 
 <style>
-@import '../public/style.css';
+@import "../public/style.css";
 </style>
